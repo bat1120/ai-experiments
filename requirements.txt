@@ -1,0 +1,28 @@
+# Core
+numpy
+pillow
+matplotlib
+
+# Computer Vision
+opencv-python
+torch
+torchvision
+ultralytics          # YOLOv8 (object detection / pose)
+mediapipe            # pose landmarker, posture monitoring
+facenet-pytorch      # face recognition
+
+# OCR
+easyocr
+
+# LLM
+google-generativeai  # Gemini
+ollama               # local LLM
+transformers
+
+# App / UI
+gradio
+fastapi
+uvicorn
+python-dotenv
+kivy
+kivymd

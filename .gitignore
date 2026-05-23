@@ -151,3 +151,23 @@ cython_debug/
 
 # App related
 bin/
+
+# ===== Project-specific =====
+# Model weights (download separately, do not commit)
+*.pt
+*.task
+*.onnx
+
+# Runtime outputs
+outputs/
+detection_results/
+*_visualized.jpg
+*_result*.json
+ocr_translated_result.txt
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
